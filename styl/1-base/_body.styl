@@ -1,0 +1,59 @@
+body
+  background $pie
+  overflow: hidden;
+  svg
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    path
+      fill: lighten($pie, 10%);
+  h1
+    padding: 1.5em 0;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(white,0.4)
+
+  .pi
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5em;
+    width: 90%;
+    max-width: 900px;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: lighten($pie, 80%)
+  .footer
+    color: rgba(white,0.4);
+    margin-top: 100px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    bottom: 0
+    left: 50%;
+    transform: translateX(-50%);
+    .icon
+      font-style: normal;
+      font-size: 28px
+    h3
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      display: inline-block;
+      margin-bottom: 0px;
+    a
+      font-weight: 300;
+      color: rgba(white,0.4)
+      transition: all 200ms ease-in-out
+      &:hover
+        color: lighten($pie, 30%)
