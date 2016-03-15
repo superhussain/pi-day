@@ -1,5 +1,5 @@
 body
-  background $pie
+  background $pie-bg
   overflow: hidden;
   svg
     position: absolute;
@@ -7,7 +7,7 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     path
-      fill: lighten($pie, 10%);
+      fill: $pie;
   h1
     padding: 1.5em 0;
     font-size: 2em;
@@ -30,7 +30,7 @@ body
     word-wrap: break-word;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: lighten($pie, 80%)
+    color: lighten($pie-bg, 80%)
   .footer
     color: rgba(white,0.4);
     margin-top: 100px;

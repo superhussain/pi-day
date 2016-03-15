@@ -182,7 +182,7 @@ th {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,100,300,400,500,600");
 body {
-  background: #913;
+  background: #314159;
   overflow: hidden;
 }
 body svg {
@@ -194,7 +194,7 @@ body svg {
           transform: translate(-50%, -50%);
 }
 body svg path {
-  fill: #b8143d;
+  fill: #913;
 }
 body h1 {
   padding: 1.5em 0;
@@ -220,7 +220,7 @@ body .pi {
   word-wrap: break-word;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #f8c2cf;
+  color: #cfd8e5;
 }
 body .footer {
   color: rgba(255,255,255,0.4);
